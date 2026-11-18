@@ -103,7 +103,7 @@ if example == "Shared Number":
         else:
             st.write(
                 f"With {n} people and 100 possible numbers, "
-                f"the probability of a match is {probability:.8f}%."
+                f"the probability of a match is {probability:.8%}."
             )
 
         with st.expander("Why is the probability so high? (Reasoning and formula)"):
@@ -172,7 +172,7 @@ else:
 
         st.write(
             f"With {answer} people, the probability of at least "
-            f"two sharing a birth month is {answer_probability:.8f}%."
+            f"two sharing a birth month is {answer_probability:.8%}."
         )
 
         st.markdown("### Now experiment with the group size")
@@ -189,7 +189,7 @@ else:
 
         st.metric(
             "Probability of at least one shared birth month",
-            f"{probability:.8f}%"
+            f"{probability:.8%}"
         )
 
         if probability >= 0.5:
