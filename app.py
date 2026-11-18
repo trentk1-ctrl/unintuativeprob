@@ -95,7 +95,7 @@ if example == "Shared Number":
 
         st.metric(
             "Probability of at least one match",
-            f"{probability:.8f}%"
+            f"{probability:.8%}"
         )
 
         if n > 100:
