@@ -52,7 +52,7 @@ if example == "Shared number":
 
     st.metric(
         "Probability of at least one shared number",
-        f"{collision_probability(group_size, choices):.2%}",
+        f"{collision_probability(group_size, choices):.5%}",
     )
 
     st.markdown("**Why?**")
